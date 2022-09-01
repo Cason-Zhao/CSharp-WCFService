@@ -13,7 +13,8 @@ namespace WCFService.Host
     {
         static void Main(string[] args)
         {
-            TestByHeadCoded();
+            //TestByHeadCoded();
+            TestByConfig();
         }
 
         public static void TestByHeadCoded()
@@ -41,6 +42,19 @@ namespace WCFService.Host
                 serviceHost.Open();
 
                 Console.ReadKey();
+            }
+        }
+
+        public static void TestByConfig()
+        {
+            using (var serviceHost = new ServiceHost(typeof(WCFService.HelloWorldService)))
+            {
+                serviceHost.Opened += (sender, e) =>
+                {
+                    Console.WriteLine("HelloWorldService 启动成功，按任意键退出！");
+                };
+                serviceHost.Open();
+                Console.Read();
             }
         }
     }
