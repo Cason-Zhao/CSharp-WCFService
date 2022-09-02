@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6f12491c-fb99-4c65-b971-07f45d081bb8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8888/WCFServiceHostByWindowsService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFServiceHostByWindowsService.xsd" MetadataType="Schema" ID="39e30226-71fd-403b-8e64-6a06d56a23b0" SourceId="1" SourceUrl="http://localhost:8888/WCFServiceHostByWindowsService?xsd=xsd0" />
+    <MetadataFile FileName="WCFServiceHostByWindowsService.disco" MetadataType="Disco" ID="99d7632c-e8fc-483b-8ca6-341178b22efd" SourceId="1" SourceUrl="http://localhost:8888/WCFServiceHostByWindowsService?disco" />
+    <MetadataFile FileName="HelloWorldService.wsdl" MetadataType="Wsdl" ID="47673302-5efd-47e0-82ce-7c9cc16f990b" SourceId="1" SourceUrl="http://localhost:8888/WCFServiceHostByWindowsService?wsdl" />
+    <MetadataFile FileName="WCFServiceHostByWindowsService.wsdl" MetadataType="Wsdl" ID="23d2f65d-e5b5-4ba8-a34f-0711e176c34a" SourceId="1" SourceUrl="http://localhost:8888/WCFServiceHostByWindowsService?wsdl=wsdl0" />
+    <MetadataFile FileName="WCFServiceHostByWindowsService1.xsd" MetadataType="Schema" ID="febc9330-7174-4c8f-8528-8d907a2d4e21" SourceId="1" SourceUrl="http://localhost:8888/WCFServiceHostByWindowsService?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

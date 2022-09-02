@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32811.315
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{5960EA89-CB95-49C4-9C2E-6ABA52459CB9}"
 EndProject
@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService.Client2", "WCFSe
 		{7C8B6EF7-86F3-4427-B96D-B756FF52E639} = {7C8B6EF7-86F3-4427-B96D-B756FF52E639}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService.WindowsServiceHost", "WCFService.WindowsServiceHost\WCFService.WindowsServiceHost.csproj", "{5570C684-F043-42BC-A7EF-A096038CC6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService.Client3", "WCFService.Client3\WCFService.Client3.csproj", "{87170213-37B5-4191-B6BD-94F4E4042089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,14 @@ Global
 		{4CD79D3F-F709-4FA8-B0C3-6DA7F2584F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD79D3F-F709-4FA8-B0C3-6DA7F2584F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD79D3F-F709-4FA8-B0C3-6DA7F2584F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5570C684-F043-42BC-A7EF-A096038CC6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5570C684-F043-42BC-A7EF-A096038CC6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5570C684-F043-42BC-A7EF-A096038CC6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5570C684-F043-42BC-A7EF-A096038CC6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87170213-37B5-4191-B6BD-94F4E4042089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87170213-37B5-4191-B6BD-94F4E4042089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87170213-37B5-4191-B6BD-94F4E4042089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87170213-37B5-4191-B6BD-94F4E4042089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +89,8 @@ Global
 		{3F5A7FAB-54B8-4054-980B-3142463D6D94} = {FB034707-21AC-45A4-9333-281A36B492C8}
 		{7C8B6EF7-86F3-4427-B96D-B756FF52E639} = {5960EA89-CB95-49C4-9C2E-6ABA52459CB9}
 		{4CD79D3F-F709-4FA8-B0C3-6DA7F2584F1F} = {FB034707-21AC-45A4-9333-281A36B492C8}
+		{5570C684-F043-42BC-A7EF-A096038CC6E0} = {5960EA89-CB95-49C4-9C2E-6ABA52459CB9}
+		{87170213-37B5-4191-B6BD-94F4E4042089} = {FB034707-21AC-45A4-9333-281A36B492C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A636385D-781D-4BAD-9675-E230971AF442}
